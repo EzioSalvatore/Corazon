@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Restaurante Corazon Oaxaqueño</title>
+    <script src="https://kit.fontawesome.com/6fb8a61010.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima&family=Mulish:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <link rel="stylesheet" href="Css/estilos.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <div class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+          <div class="logo">
+            <h2 id="inicio">
+              <span class="verde">Restaurante</span> <span>Corazon</span>
+              <span class="rojo">Oaxaqueño</span>
+            </h2 >
+          </div>
+          <nav class="navegacion ocultar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#nuestra-carta">Nuestra carta</a>
+            <a href="#nuestro-equipo">Nuestro equipo</a>
+            <a href="#nuestra-historia">Nuestra historia</a>
+            <a href="#nuestra-ubicacion">Nuestra ubicacion</a>
+            <a href="#contactos">Contactos</a>
+            <p class="btn-cerrar">x</p>
+          </nav>
+          <div class="hamburguesa"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="contenido-header">
+        <div class="contenedor-encabezado">
+          <div class="texto-encabezado">
+            <h2>Corazon Oaxaqueño</h2>
+            <a href="https://wa.me/525521514695" class="btn bordes">Reserva con nosotros</a>
+        </div>
+        <video autoplay loop muted>
+          <source src="assets/Download (11).mp4">
+        </video>
+      </div>
+    </header>
+
+    <div class="contenedor-nosotros">
+      <div class="texto-nosotros">
+        <h1 class="bienvenida" style="color: white;">Bienvenido a</h1>
+        <h1 style="color: white; background-color: var(--rojo);" id="sobre-nosotros">Restaurante Corazon Oaxaqueño</h1>
+        <h2 style="color: white;">Mision</h2>
+         <p style="color: white;">Somos un proyecto gastronómico que busca difundir, preservar y enaltecer la cultura, tradiciones y gastronomía de Oaxaca. La oferta de nuestros productos y servicios tienen el objetivo de llegar a nuestros paisanos y publico general apasionadas por nuestra identidad radicados en Ecatepec y sus alrededores.</p>
+        <h2 style="color: white;">VISIÓN</h2>
+        <p style="color: white;">Ser un referente importante a nivel nacional de emprendimiento con enfoque gastronómico con especialidad en gastronomía oaxaqueña. Consolidarnos como una empresa, fomentando la competitividad y calidad de nuestros productos y servicios. También seguir generando empleo a jóvenes apasionados por la cultura y tradiciones de Oaxaca, el servicio al cliente y la cocina.</p>
+        <a href="#" class="btn btn-rojo">Contactar</a>
+      </div>
+      <div class="imagenes-nosotros">
+        <div class="imagen1">
+          <img data-src="Corazon.jpg" alt="mujer comiendo pizza">
+        </div>
+        <div class="imagenes2">
+          <img data-src="Catrina.jpg" alt="mujer comiendo pizza">
+        </div>
+      </div>
+    </div>
+
+    <section class="menu contenedor" >
+      <h2 class="texto-platillos" style="color: white; background-color: var(--rojo);" id="nuestra-carta">Nuestra carta</h2>
+      <div class="botones-platillos">
+        <button class="todos btn btn-verde">Todos</button>
+        <button class="desayunos btn btn-verde">Desayunos</button>
+      
+        <button class="entradas btn btn-verde">Entradas</button>
+        
+        <button class="platosfuertes btn btn-verde">Platos Fuertes</button>
+        
+        <button class="tlayudas btn btn-verde">Tlayudas</button>
+      
+        
+        
+        <button class="postres btn btn-verde">Postres</button>
+        <button class="bebidas btn btn-verde">Bebidas</button>
+        <button class="extras btn btn-verde">Extras</button>
+        
+      </div>
+      <div class="platillos">
+      <div class="platillo" data-platillo="desayunos">
+          <img data-src="" alt="desayunos">
+          <h1 style="color: white;">Molotes</h1>
+          
+          <div class="precio">
+            <p style="color: white;">$0.00</p> 
+          </div>
+      </div>
+      <div class="platillo" data-platillo="entradas">
+        <img data-src="" alt="entradas">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <div class="precio">
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+      <div class="platillo" data-platillo="platosfuertes">
+        <img data-src="" alt="platosfuertes">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <div class="precio">
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+      <div class="platillo" data-platillo="tlayudas">
+        <img data-src="" alt="tlayudas">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postres">
+        <img data-src="" alt="postres">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+      <div class="platillo" data-platillo="bebidas">
+        <img data-src="" alt="bebidas">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+      <div class="platillo" data-platillo="extras">
+        <img data-src="" alt="extras">
+        <h1 style="color: white;">Molotes</h1>
+        
+        <div class="precio">
+        <p style="color: white;">$0.00</p> 
+        </div>
+      </div>
+          
+    
+                        
+                        
+      </div>
+    </section>
+
+    <div class="separador">
+      <div class="contenido-separador contenedor">
+        <h2 style="color: white;">Comida Oaxaqueña para disfrutar</h2>
+        <p style="color: white;">Embárcate en un viaje culinario a través de los sabores auténticos de Oaxaca en nuestro restaurante, cada platillo es una obra maestra de la tradición, preparada con pasión y amor, descubre la esencia de México en cada bocado 
+          ¡Tu paladar merece esta experiencia única!</p>
+          <a href="https://wa.me/525521514695" class="btn btn-verde">Reserva ahora</a>
+<div><a class="descarga" href="DESCRIPCIÓN DE MENÚ 2024_CORAZÓN OAXAQUEÑO.docx" style="color: white;">Descarga nuestra carta en PDF</a></div>
+          <style>
+            .separador{
+  background-image: url('../tlayuda.jpg') ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.separador::before{
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: -1;
+}
+.contenido-separador{
+  padding: 5rem;
+}
+.contenido-separador h2{
+  font-size: 4rem;
+  color: var(--blanco);
+  text-align: center;
+}
+
+@media(min-width:){
+  .contenido-separador h2{
+    text-align: left;
+    font-size: 5rem;
+    color: var(--blanco);
+  }
+  }
+
+.contenido-separador p{
+ color: var(--blanco);
+ font-size: 3rem;
+ text-align: center;
+}
+
+@media(min-width:){
+    .contenido-separador p{
+      text-align: left;
+    }
+
+}
+          </style>
+      </div>
+    </div>
+
+    <section class="chef contenedor">
+      <h2 style="color: white;" id="nuestro-equipo">Nuestro equipo</h2>
+      <div class="texto-chef">
+        <h3 class="h3" style="color: white;">chef</h3>
+        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Qui amet ipsum excepturi, quod aut consectetur nobis iure, dolor non, laborum rerum. 
+           Provident quasi sunt corporis consequuntur nesciunt perferendis quos sed!</p>
+        
+<style>
+  
+        .chef h2{
+  background-color: var(--rojo);
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: var(--blanco);
+  font-size: 4rem;
+}
+.h3{
+  background-color: orange;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: var(--blanco);
+  font-size: 4rem;
+}
+
+@media(min-width:){
+  .contenido-chef{
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+.texto-chef, .imagen-chef{
+  flex: 0 0 calc(50% - 1rem);
+}
+
+.texto-chef p{
+  font-size: 3rem;
+}
+
+.texto-chef p{
+  font-size: 2rem;
+}
+</style>
+      </div>
+      <div class="imagen-chef">
+        <img data-src="" class="img" alt="fotografia del chef">
+
+        <style>
+
+        .imagen-chef{
+          width: 500px;
+          height: 300px;
+
+        }
+
+
+          .chef h2{
+  background-color: var(--rojo);
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: var(--blanco);
+  font-size: 4rem;
+}
+
+@media(min-width:){
+  .contenido-chef{
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+.texto-chef, .imagen-chef{
+  flex: 0 0 calc(50% - 1rem);
+}
+
+.texto-chef p{
+  font-size: 3rem;
+}
+
+.texto-chef p{
+  font-size: 2rem;
+}
+        </style>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor-nosotros">
+        <div class="texto-nosotros">
+          <h1 style="color: white; background-color: var(--rojo);" id="nuestra-historia">Nuestra historia</h1>
+           <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima alias obcaecati sint suscipit ipsum tempora, dolorem illum in dolores aut possimus nemo, recusandae voluptatibus officia quisquam. Quos eaque blanditiis quibusdam.</p>
+    </div>
+        <div class="imagenes-nosotros">
+          <div class="imagen1">
+            <img data-src="1.jpg" alt="mujer comiendo pizza">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="ubicacion">
+        <h1 style="color: white;" id="nuestra-ubicacion">Nuestra ubicacion</h1>
+
+        <style>
+          .ubicacion h1{
+  background-color: var(--rojo);
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: var(--blanco);
+  font-size: 4rem;
+}
+
+@media(min-width:){
+  .ubicacion{
+    display:flex;
+    justify-content: space-between;
+  }
+}
+        </style>
+      </div>
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.925955875957!2d-99.0181384240191!3d19.587672635708707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f1d6625d6375%3A0xc2aee38c1e4a243!2sAv.%20Independencia%20%26%20Av.%20Ignacio%20L%C3%B3pez%20Ray%C3%B3n%2C%20Fraccionamiento%20Las%20Americas%2C%20Las%20Am%C3%A9ricas%2C%2055076%20Ecatepec%20de%20Morelos%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1699282684251!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      
+    </section>
+
+    <section>
+      <div class="formulario-contacto contenedor">
+        <div class="informacion-contacto">
+          <h1 style="color: white;" id="contactos">Cotiza tu evento</h1>
+          <p style="color: white;"><i class='bx bxs-map-pin' style="color: white;"></i>Avenida Independencia esquina con Ignacio López Rayón, Las Américas, Ecatepec de Morelos, Ecatepec de Morelos, Mexico</p>
+          <p style="color: white;"><i class='bx bxs-envelope' style='color:#ffffff' ></i>restcorazonoaxaqueno@hotmail.com</p>
+          <p style="color: white;"><i class='bx bxs-phone-call' style="color: white;"></i></box-icon>5521514695</p>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/corazonoaxaquenorestaurante?locale=es_LA"><i class='bx bxl-facebook-square' style="color: white;"></i></a>
+            <a href="https://www.instagram.com/corazonoaxaquenorestaurante/"><i class='bx bxl-instagram-alt' style="color: white;"></i></a>
+            <a href="https://www.tiktok.com/@corazon_oaxaqueno"><i class='bx bxl-tiktok' style="color: white;"></i></a>
+          </div>
+        </div>
+        <form class="formulario">
+          <div class="input-formulario">
+            <label for="nombre" style="color: white;">Nombre</label>
+            <input type="text" placeholder="ejemplo: Pepe" id="nombre">
+          </div>
+
+          <div class="input-formulario">
+            <label for="apellidos" style="color: white;">Apellido</label>
+            <input type="text" placeholder="Ejemplo: Godinez Escalante" id="apellidos">
+          </div>
+
+          <div class="input-formulario">
+            <label for="correo" style="color: white;">Correo</label>
+            <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+          </div>
+
+          <div class="input-formulario">
+            <label for="nombre" style="color: white;">Telefono/Celular</label>
+            <input type="tel" placeholder="+55 5555 5555" id="telefono">
+          </div>
+          <div class="input-formulario">
+            <label for="mensaje" style="color: white;">Mensaje</label>
+            <textarea></textarea>
+          </div>
+          <div class="btn-formulario">
+            <input type="submit" class="btn btn-verde" value="Enviar">
+          </div>
+
+
+<style>
+   
+  
+    .formulario-contacto{
+      padding-top: 5rem;
+    }
+   @media(min-width:768px){
+    .formulario-contacto{
+      display: flex;
+
+    }
+       
+   
+   } 
+
+   .formulario-contacto{  
+    display: flex;
+
+  }
+
+  .informacion-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario-contacto .formulario{
+    flex: 0 0 calc(50% - 1rem);
+  }
+
+  .informacion-contacto{
+    background-color: var(--rojo);
+    padding: 2rem;
+    position: relative;
+  }
+
+  @media(min-width:768px){
+      .informacion-contacto{
+        height: 60rem;
+      }
+  
+  }
+
+  .informacion-contacto h1{
+    font-size: 4rem;
+    font-family: var(--titulos);
+  }
+
+  .informacion-contacto p{
+    font-size: 2.2rem;
+  }
+
+  .informacion-contacto i{
+    margin-right: 1rem;
+
+  }
+
+  .redes-sociales{
+    font-size: 3rem;
+  }
+
+  .input-formulario label{
+   display: block;
+   font-size: 2rem;
+   font-family: var(--parrafos);
+   margin-bottom: 1.5rem;
+  
+  }
+
+  .formulario{
+    padding: 5rem;
+  }
+
+
+  .input-formulario input, .input-formulario textarea{
+    width: 100%;
+  }
+
+  .input-formulario input, .input-formulario{
+    padding: 1rem 1.6rem;
+    border:1px solid #e1e1e1;
+    border-radius: 5px; 
+    outline: none;
+    font-family: var(--parrafos);
+
+  }
+
+  .input-formulario textarea{
+    height: 20rem;
+    resize: none;
+  }
+
+</style>
+         
+        </form>
+      </div>
+
+      <div class="pie-pagina contenedor">
+        <div class="contenedor-piepagina">
+          <div class="info">
+            <h3 style="color: white;">Direccion</h3>
+            <p style="color: white;">Avenida Independencia esquina con Ignacio López Rayón, Las Américas, Ecatepec de Morelos, Ecatepec de Morelos, Mexico</p>
+          </div>
+          <div class="info">
+            <h3 style="color: white;">Horario</h3>
+            <p style="color: white;">Lunes a Domingo: 10:00 a 22:00 pm</p>
+            <div class="redes-sociales redes-pie">
+              <a href="https://www.facebook.com/corazonoaxaquenorestaurante?locale=es_LA"><i class='bx bxl-facebook-square' style="color: white;"></i></a>
+              <a href="https://www.instagram.com/corazonoaxaquenorestaurante/"><i class='bx bxl-instagram-alt' style="color: white;"></i></a>
+              <a href="https://www.tiktok.com/@corazon_oaxaqueno"><i class='bx bxl-tiktok' style="color: white;"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <h3 style="color: white;">Noticias</h3>
+            <p style="color: white;">Suscribete para recibir mas Noticias</p>
+            <input type="email" placeholder="Tu correo">
+            <input type="submit" class="btn btn-verde" value="Suscribirse">
+          </div>
+        </div>
+      </div>
+<footer class="footer">
+    <p style="color: white;">Todos los derechos reservados &copy; 2023 Restaurante Corazon Oaxaqueño, desarrollado por Edgar David Godinez Escalante</p>
+
+</footer>
+
+<style>
+
+ 
+    .pie-pagina{
+    background-color: var(--rojo);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 5rem;
+
+  }
+  
+  
+
+  @media(min-width:768px){
+    .contenedor-piepagina{
+    display: flex;
+    background-color: var(--rojo);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+     }
+
+  .info{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  .info h3{
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .info p{
+    margin-bottom: 1rem;
+  }
+
+  .redes-pie{
+    text-align: center;
+  }
+
+  .info input[type="email"]{
+    font-family: var(--parrafos);
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;  
+    outline: none;
+    width: 100%;
+
+}
+
+.info input[type="submit"]{
+  padding: .5rem 2rem;
+  font-size: 1.8rem;  
+  border-radius: 0;
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  padding: 2rem;
+  font-size: 2rem;
+
+  }
+
+
+
+</style>
+
+    </section>
+
+    <script>  
+      const menu = document.querySelector('.hamburguesa');
+      const navegacion = document.querySelector('.navegacion');
+      const imagenes = document.querySelectorAll('img');
+      const btnTodos = document.querySelector('.todos');
+      const btnDesayunos = document.querySelector('.desayunos');
+      const btnEntradas = document.querySelector('.entradas');
+      const btnPlatosfuertes = document.querySelector('.platosfuertes')
+      const btnTlayudas = document.querySelector('.tlayudas')
+      const btnPostres = document.querySelector('.postres')
+      const btnBebidas = document.querySelector('.bebidas')
+      const btnExtras = document.querySelector('.extras')
+      const contenedorPlatillos = document.querySelector('.platillos');
+      document.addEventListener("DOMContentLoaded", () => {
+        eventos();
+        platillos();
+      });
+
+      const eventos = () => {
+        menu.addEventListener("click", abrirMenu);
+      };
+
+      const abrirMenu = () => {
+        navegacion.classList.remove("ocultar");
+        botonCerrar();
+      };
+
+      const botonCerrar = () => {
+        const btnCerrar = document.createElement("p");
+        const overlay = document.createElement("div");
+        overlay.classList.add("pantalla-completa");
+        const body = document.querySelector("body");
+        if (document.querySelectorAll(".pantalla-completa").length > 0) return;
+        body.appendChild(overlay);
+        btnCerrar.textContent = "x";
+        btnCerrar.classList.add("btn-cerrar");
+
+        // while (navegacion.children[5]) {
+        //   navegacion.removeChild(navegacion.children[5]);
+        //
+        navegacion.appendChild(btnCerrar);
+        cerrarMenu(btnCerrar, overlay);
+      } 
+
+      const observer = new IntersectionObserver((entries, observer)=>{
+          entries.forEach(entry=>{
+              if(entry.isIntersecting){
+                const imagen = entry.target;
+                imagen.src = imagen.dataset.src;
+                observer.unobserve(imagen);
+              }
+          });
+      });
+
+      imagenes.forEach(imagen=> {
+        
+        observer.observe(imagen);
+      });
+
+      const cerrarMenu = (boton, overlay) => {
+        boton.addEventListener("click", () => {
+          navegacion.classList.add("ocultar");
+          overlay.remove();
+          boton.remove();
+        });
+
+        overlay.onclick = function () {
+          overlay.remove();
+          navegacion.classList.add("ocultar");
+          boton.remove;
+        };
+      };
+
+      const platillos = () =>{
+        let platillosArreglo = [];
+        const platillos = document.querySelectorAll('.platillo');
+        
+        platillos.forEach(platillo=> platillosArreglo = [...platillosArreglo,platillo]);
+        
+        const desayunos = platillosArreglo.filter(desayunos=> desayunos.getAttributes('data-platillo') === 'desayunos');
+        const entradas = platillosArreglo.filter(entradas=> entradas.getAttributes('data-platillo') === 'entradas');
+        const platosfuertes = platillosArreglo.filter(platosfuertes=> platosfuertes.getAttributes('data-platillo') === 'platosfuertes');
+        const tlayudas = platillosArreglo.filter(tlayudas=> tlayudas.getAttributes('data-platillo') === 'tlayudas');
+        const postres = platillosArreglo.filter(postres=> postres.getAttributes('data-platillo') === 'postres');
+        const bebidas = platillosArreglo.filter(bebidas=> bebidas.getAttributes('data-platillo') === 'bebidas');
+        const extras = platillosArreglo.filter(extras=> extras.getAttributes('data-platillo') === 'extras');
+        
+        mostrarPlatillos(desayunos, entradas, platosfuertes, tlayudas, postres, bebidas, extras, platillosArreglo);
+         
+      }
+
+      const mostrarPlatillos = (desayunos, entradas, platosfuertes, tlayudas, postres, bebidas, extras, todos)=> {
+        btnDesayunos.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        desayunos.forEach(desayunos=> contenedorPlatillos.appendChild(desayunos));
+
+        });
+
+        btnEntradas.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        entradas.forEach(entradas=> contenedorPlatillos.appendChild(entradas));
+
+        });
+
+        btnPlatosfuertes.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        platosfuertes.forEach(platosfuertes=> contenedorPlatillos.appendChild(platosfuertes));
+
+        });
+
+
+        btnTlayudas.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        tlayudas.forEach(tlayudas=> contenedorPlatillos.appendChild(tlayudas));
+
+        });
+
+
+        btnPostres.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        postres.forEach(postres=> contenedorPlatillos.appendChild(postres));
+
+        });
+
+        btnBebidas.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        bebidas.forEach(bebidas=> contenedorPlatillos.appendChild(bebidas));
+
+        });
+
+        btnExtras.addEventListener('click', ()=>{
+          limpiarHtml(contenedorPlatillos);
+        extras.forEach(entradas=> contenedorPlatillos.appendChild(extras));
+
+        });
+        
+        btnTodos.addEventListener('click',()=>{
+          limpiarHtml(contenedorPlatillos);
+          todos.forEach(todos=> contenedorPlatillos.appendChild(todos));
+        });
+
+      }
+
+       const limpiarHtml = (contenedor)=> {
+        while(contenedor.firstChild){
+          contenedor.removeChild(contenedor.firstChild);
+        }
+       }
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
